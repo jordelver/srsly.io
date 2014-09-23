@@ -1,5 +1,6 @@
 require 'rack'
 require 'rack/contrib/try_static'
+require 'newrelic_rpm'
 
 use Rack::Deflater
 
